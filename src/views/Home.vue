@@ -2,13 +2,11 @@
   <div class="home my-2 py-2">
     <section id="landing">
       <div class="container-fluid" style="width:90%; height: 100%;">
-        <div class="row" style="height:100vh">
+        <div class="row left-part" style="height:100vh">
           <div class="col-md-6" style="height:100%">
-            <div class="left-part">
-            </div>
 
           </div>
-          <div class="col-md-6" style="background-color:rgb(235,133,16); height: 100%; border-radius: 20px;">
+          <div class="col-md-6" style="background-color:rgb(235,133,16); height: 100%;">
             <div class="right-part  text-white p-5">
               <div class="mb-5" >
               <h1 class="py-3" style="font-weight: bold; text-transform: capitalize; font-size: 60px;">Luxury real estate:</h1>
@@ -61,4 +59,7 @@ export default {
       background-color: rgb(21, 21, 21);
     }
   }
+
+
+
 </style>
