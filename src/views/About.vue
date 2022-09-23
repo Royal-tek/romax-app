@@ -1,5 +1,17 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
+  <div class="about mt-5 py-5">
+  this is the about pah
+
   </div>
 </template>
+
+<script>
+export default {
+  name : 'About',
+
+}
+</script>
+
+<style>
+
+</style>
