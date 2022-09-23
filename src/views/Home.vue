@@ -1,5 +1,5 @@
 <template>
-  <div class="home my-5 py-5">
+  <div class="home my-4 py-4">
     <section id="landing">
       <div class="container-fluid" style="height:100vh;">
         <div class="row left-part">
@@ -22,31 +22,84 @@
     </section>
 
     <section id="why" class="my-5">
-      <div class="containerr" style="width:100%">
-        <h2 class="text-center why mb-2">Why choose us</h2>
+      <div class="containerr">
+        <h2 class="text-center  why mb-2">Why choose us</h2>
         <div class="folder">
           <div class="containerr">
           <div class="row">
-            <div class="col-md-3 chooser">
+            <div class="col-md-3 chooser my-2 text-center">
               <h3>Location</h3>
               <p>Our properties are located at prime areas which guarantees return on investment.</p>
             </div>
-            <div class="col-md-3 chooser">
-              <h3>Location</h3>
-              <p>Our properties are located at prime areas which guarantees return on investment.</p>
+            <div class="col-md-3 chooser my-2 text-center">
+              <h3>Trusted</h3>
+              <p>We have been in business for over 16 years, for clients in diaspora you can trust us to deliver well finished homes.</p>
             </div>
-            <div class="col-md-3 chooser">
-              <h3>Location</h3>
-              <p>Our properties are located at prime areas which guarantees return on investment.</p>
+            <div class="col-md-3 chooser my-2 text-center">
+              <h3>Affordability</h3>
+              <p>Our homes are very affordable, we have something for both the high & middle class earners with flexible payment plans.</p>
             </div>
-            <div class="col-md-3 chooser">
-              <h3>Location</h3>
-              <p>Our properties are located at prime areas which guarantees return on investment.</p>
+            <div class="col-md-3 chooser my-2 text-center">
+              <h3>Amenities</h3>
+              <p>Our estates comes with good road network, portable water, 24hrs light & round the clock security etc.</p>
             </div>
           </div>
         </div>
       </div>
       </div>
+    </section>
+
+    <section id="projects" class="my-5">
+      <div class="containerr">
+        <h2 class="text-center  why mb-2">Our Projects</h2>
+        <div class="folder">
+          <div class="containerrr">
+          <div class="row">
+            <div class="col-lg-3 col-md-6 chooser my-2 text-center">
+              <div class="box box1">
+                
+              </div>
+              <div class="housebadge">House 1</div>
+              <div>
+                <h5 class="text-capitalize" style="color:rgb(235,133,16); font-weight: bold;">Quality meets affordability</h5>
+                <p>A neighborhood of tastefully finished must-have homes specifically designed to match varying modern lifestyles with luxury living at an affordable price</p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 chooser my-2 text-center">
+              <div class="box box2">
+                
+              </div>
+              <div class="housebadge">House 2</div>
+              <div>
+                <h5 class="text-capitalize" style="color:rgb(235,133,16); font-weight: bold;">Comfort in Style</h5>
+                <p> Built with the user’s comfort as the most important consideration, this unit offers maximum satisfaction for the owner.</p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 chooser my-2 text-center">
+              <div class="box box3 ">
+                
+              </div>
+              <div class="housebadge">House 3</div>
+              <div>
+                <h5 class="text-capitalize" style="color:rgb(235,133,16); font-weight: bold;">Maximise your Home Value</h5>
+                <p>Each property boasts of excellent rental and resell value which indicates an excellent return rate for the buyer.</p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 chooser my-2 text-center">
+              <div class="box box4 ">
+                
+              </div>
+              <div class="housebadge">House 4</div>
+              <div>
+                <h5 class="text-capitalize" style="color:rgb(235,133,16); font-weight: bold;">Live Life Large</h5>
+                <p>Each unit provides essential requirements for a contemporary family to live in style within affordable budget which in reality, is a gift.</p>
+              </div>
+            </div>
+          </div>
+          </div>
+          </div>
+      </div>
+
     </section>
   </div>
 </template>
@@ -96,6 +149,7 @@ export default {
   .why{
     font-weight: bold;
     text-transform: capitalize;
+    color: black !important;
 
     &::after{
       content: '';
@@ -111,12 +165,59 @@ export default {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
+    h3{
+      font-weight: bold;
+      margin: 0 0 10px;
+      color: rgb(235,133,16);
+    }
+    p{
+      color: black;
+      font-weight: bold;
+    }
   }
   .containerr{
-    width: 100% !important;
+    width: 90% !important;
+    margin: 0 auto;
     padding: 20px !important;
   }
-
+  .containerrr{
+    width: 100% !important;
+    margin: 0 auto;
+    padding: 20px !important;
+  }
+  .box{
+    padding: 150px;
+    background-color: red;
+  }
+  .box1{
+    background-image: url(../assets/images/2.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  .box2{
+    background-image: url(../assets/images/4.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  .box3{
+    background-image: url(../assets/images/3.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  .box4{
+    background-image: url(../assets/images/6.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+.housebadge{
+  background: #fff;
+  padding: 20px 30px;
+  border: 1px solid black;
+  color: black;
+  margin-top: -20px;
+  margin-bottom: 20px;
+}
 @media (max-width:700px){
   .right-part{
     padding: 10px !important;
