@@ -101,6 +101,22 @@
       </div>
 
     </section>
+
+    <section id="contact">
+      <div class="container-fluid ccc">
+        <div class="row" style="height:100%">
+          <div class="col-md-6 text-center discuss text-white">
+            <h1 class="my-3">Lets discuss our projects</h1>
+            <p class="my-3">Fill out the form, or call us to Schedule an Inspection.</p>
+            <p class="my-3">Project Locations: Harris Drive, Orchid Road, Ajiwe.</p>
+          </div>
+          <div class="col-md-6 text-center form">
+            <h1>fill the form</h1>
+          </div>
+        </div>
+      </div>
+
+    </section>
   </div>
 </template>
 
@@ -188,7 +204,7 @@ export default {
   }
   .box{
     padding: 150px;
-    background-color: red;
+    background-color: rgb(235,133,16);
   }
   .box1{
     background-image: url(../assets/images/2.jpg);
@@ -217,6 +233,20 @@ export default {
   color: black;
   margin-top: -20px;
   margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.discuss{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.ccc{
+  height: 50vh;
+  width: 100%;
+  background-color: rgb(235,133,16);
 }
 @media (max-width:700px){
   .right-part{
