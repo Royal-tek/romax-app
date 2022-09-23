@@ -1,6 +1,6 @@
 <template>
   <div class="home my-5 py-5">
-    <section id="landing">
+    <!-- <section id="landing"> -->
       <div class="container-fluid">
         <div class="row left-part">
           <div class="col-6" style="height:100%">
@@ -19,7 +19,7 @@
           </div>
         </div>
       </div>
-    </section>
+    <!-- </section> -->
   </div>
 </template>
 
@@ -34,6 +34,11 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+  *{
+    margin: 0 ;
+    padding: 0 ;
+    box-sizing: border-box !important;
+}
   .left-part{
     background-image: url(../assets/images/1.jpg);
     height: 100%;
