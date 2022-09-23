@@ -1,7 +1,7 @@
 <template>
   <div class="home my-5 py-5">
     <!-- <section id="landing"> -->
-      <div class="container-fluid">
+      <div class="container-fluid" style="height:100vh;">
         <div class="row left-part">
           <div class="col-6" style="height:100%">
 
