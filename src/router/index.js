@@ -22,11 +22,6 @@ const routes = [
     component: Projects
   },
   {
-    path: '/blog',
-    name: 'Blog',
-    component: Blog
-  },
-  {
     path: '/contact',
     name: 'Contact',
     component: Contact

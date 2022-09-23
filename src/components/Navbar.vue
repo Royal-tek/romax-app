@@ -26,9 +26,6 @@
                 <router-link to="/projects" :class="{active : $route.name == 'Projects'}" class="nav-link">Our Projects</router-link>
                 </li>
                 <li class="nav-item">
-                <router-link to="/blog" :class="{active : $route.name == 'Blog'}" class="nav-link">Blog</router-link>
-                </li>
-                <li class="nav-item">
                 <router-link to="/contact" :class="{active : $route.name == 'Contact'}" class="nav-link">Contact Us</router-link>
                 </li>
             </ul>

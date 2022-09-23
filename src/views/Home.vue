@@ -8,11 +8,11 @@
           </div>
           <div class="col-6" style="background-color:rgb(235,133,16);">
             <div class="right-part  text-white p-5">
-              <div class="mb-5" >
-              <h1 class="py-3" style="font-weight: bold; text-transform: capitalize; font-size: 60px;">Luxury real estate:</h1>
-              <h2 class="py-3" style="font-weight: bold; text-transform: capitalize; font-size: 40px;">Redefined.</h2>
+              <div class="mb-2" >
+              <h1 class="py-2" style="font-weight: bold; text-transform: capitalize; font-size: 60px;">Luxury real estate:</h1>
+              <h2 class="py-2" style="font-weight: bold; text-transform: capitalize; font-size: 40px;">Redefined.</h2>
               </div>
-              <p class="py-3" style="font-weight: 800; color: white; font-size: 20px;">At Romax Properties we specialise in the development of residential buildings with the aim to construct luxury homes in cozy and functional estates so as to curb the housing deficit in Lagos and its environments.</p>
+              <p class="py-2" style="font-weight: 800; color: white; font-size: 20px;">At Romax Properties we specialise in the development of residential buildings with the aim to construct luxury homes in cozy and functional estates so as to curb the housing deficit in Lagos and its environments.</p>
               <router-link to="/about" class="btn more-btn p-2 my-4"><span>More About Us</span></router-link>
             </div>
           
@@ -78,7 +78,8 @@ export default {
       font-size: 10px !important;
     }
     .more-btn{
-      padding: 4px !important;
+      padding: 1px 0 !important;
+      font-size: 10px;
     }
     
   }
