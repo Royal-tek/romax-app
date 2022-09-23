@@ -1,7 +1,7 @@
 <template>
   <div class="home my-5 py-5">
     <section id="landing">
-      <div class="container-fluid" style="width:90%; height: 100%;">
+      <div class="container-fluid long" style="width:90%; height: 100%;">
         <div class="row left-part">
           <div class="col-6" style="height:100%">
 
@@ -72,7 +72,10 @@ export default {
     p{
       font-size: 10px !important;
     }
-    // background-color: yellow !important;
+    .more-btn{
+      padding: 4px !important;
+    }
+    
   }
 }
 
