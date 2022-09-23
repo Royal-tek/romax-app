@@ -1,12 +1,12 @@
 <template>
-  <div class="home my-2 py-2">
+  <div class="home my-5 py-5">
     <section id="landing">
       <div class="container-fluid" style="width:90%; height: 100%;">
-        <div class="row left-part" style="height:100vh">
+        <div class="row left-part">
           <div class="col-6" style="height:100%">
 
           </div>
-          <div class="col-6" style="background-color:rgb(235,133,16); height: 100%;">
+          <div class="col-6" style="background-color:rgb(235,133,16);">
             <div class="right-part  text-white p-5">
               <div class="mb-5" >
               <h1 class="py-3" style="font-weight: bold; text-transform: capitalize; font-size: 60px;">Luxury real estate:</h1>
@@ -53,13 +53,27 @@ export default {
   .more-btn{
     background-color: black;
     color: #fff;
-    width: 50%;
+    // width: 50%;
     
     &:hover{
       background-color: rgb(21, 21, 21);
     }
   }
 
-
+@media (max-width:700px){
+  .right-part{
+    padding: 10px !important;
+    h1{
+      font-size: 30px !important;
+    }
+    h2{
+      font-size: 18px !important;
+    }
+    p{
+      font-size: 10px !important;
+    }
+    // background-color: yellow !important;
+  }
+}
 
 </style>
