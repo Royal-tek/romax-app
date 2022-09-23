@@ -72,14 +72,14 @@ export default {
       font-size: 30px !important;
     }
     h2{
-      font-size: 18px !important;
+      font-size: 22px !important;
     }
     p{
-      font-size: 10px !important;
+      font-size: 15px !important;
     }
     .more-btn{
-      padding: 1px 0 !important;
-      font-size: 10px;
+      padding: 2px !important;
+      font-size: 14px;
     }
     
   }
