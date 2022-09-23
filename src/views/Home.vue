@@ -55,7 +55,7 @@ export default {
   .more-btn{
     background-color: black;
     color: #fff;
-    width: 30%;
+    width: 50%;
     
     &:hover{
       background-color: rgb(21, 21, 21);
