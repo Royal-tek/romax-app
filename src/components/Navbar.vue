@@ -16,16 +16,16 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
-                <li class="nav-item">
+                <li class="nav-item me-2">
                 <router-link to="/" :class="{active : $route.name == 'Home'}" class="nav-link">Home</router-link>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item me-2">
                 <router-link to="/about" :class="{active : $route.name == 'About'}" class="nav-link">About Us</router-link>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item me-2">
                 <router-link to="/projects" :class="{active : $route.name == 'Projects'}" class="nav-link">Our Projects</router-link>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item me-2">
                 <router-link to="/contact" :class="{active : $route.name == 'Contact'}" class="nav-link">Contact Us</router-link>
                 </li>
             </ul>

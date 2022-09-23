@@ -1,6 +1,6 @@
 <template>
   <div class="home my-5 py-5">
-    <!-- <section id="landing"> -->
+    <section id="landing">
       <div class="container-fluid" style="height:100vh;">
         <div class="row left-part">
           <div class="col-6" style="height:100%">
@@ -19,7 +19,35 @@
           </div>
         </div>
       </div>
-    <!-- </section> -->
+    </section>
+
+    <section id="why" class="my-5">
+      <div class="containerr" style="width:100%">
+        <h2 class="text-center why mb-2">Why choose us</h2>
+        <div class="folder">
+          <div class="containerr">
+          <div class="row">
+            <div class="col-md-3 chooser">
+              <h3>Location</h3>
+              <p>Our properties are located at prime areas which guarantees return on investment.</p>
+            </div>
+            <div class="col-md-3 chooser">
+              <h3>Location</h3>
+              <p>Our properties are located at prime areas which guarantees return on investment.</p>
+            </div>
+            <div class="col-md-3 chooser">
+              <h3>Location</h3>
+              <p>Our properties are located at prime areas which guarantees return on investment.</p>
+            </div>
+            <div class="col-md-3 chooser">
+              <h3>Location</h3>
+              <p>Our properties are located at prime areas which guarantees return on investment.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
   </div>
 </template>
 
@@ -63,6 +91,30 @@ export default {
     &:hover{
       background-color: rgb(21, 21, 21);
     }
+  }
+
+  .why{
+    font-weight: bold;
+    text-transform: capitalize;
+
+    &::after{
+      content: '';
+      width: 40px;
+      height: 4px;
+      background-color: rgb(235,133,16);
+      display: block;
+      margin: 7px auto;
+    }
+  }
+  .chooser{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .containerr{
+    width: 100% !important;
+    padding: 20px !important;
   }
 
 @media (max-width:700px){
