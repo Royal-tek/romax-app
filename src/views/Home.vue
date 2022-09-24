@@ -105,13 +105,75 @@
     <section id="contact">
       <div class="container-fluid ccc">
         <div class="row" style="height:100%">
-          <div class="col-md-6 text-center discuss text-white">
-            <h1 class="my-3">Lets discuss our projects</h1>
-            <p class="my-3">Fill out the form, or call us to Schedule an Inspection.</p>
-            <p class="my-3">Project Locations: Harris Drive, Orchid Road, Ajiwe.</p>
+          <div class="col-md-4 col-sm-12 text-center discuss text-white">
+            <h1 class="my-3 text-capitalize" style="font-weight: bold; font-size: 50px;">Lets discuss our projects</h1>
+            <h5 class="my-3" style="font-weight: bold;">Fill out the form, or call us to Schedule an Inspection.</h5>
+            <h5 class="my-3" style="font-weight: bold;">Project Locations : </h5>
+            
+            <p class="mt-1 mb-3" style="font-weight: bold;"> Harris Drive, Orchid Road, Ajiwe.</p>
+            <h5 class="my-3" style="font-weight: bold;">45A Alternative Route, Chevron Drive, Lekki, Lagos. </h5>
+            <h5 class="my-3" style="font-weight: bold;">Sales@romax.com </h5>
+            <h5 class="my-3" style="font-weight: bold;">07000076629 </h5>
+
           </div>
-          <div class="col-md-6 text-center form">
-            <h1>fill the form</h1>
+          <div class="col-md-8 col-sm-12 text-center form">
+            <form class="form">
+              <div class="row">
+                <div class="col-md-6 col-sm-12">
+                  <div class="mx-3 my-2">
+                    <input type="text" class="form-control shadow-none p-2" placeholder="FirstName">
+                  </div>
+                  
+                </div>
+                <div class="col-md-6 col-sm-12">
+                  <div class="mx-3 my-2">
+                    <input type="text" class="form-control shadow-none p-2" placeholder="LasttName">
+                  </div>
+                </div>
+                
+              </div>
+
+              <div class="row">
+                <div class="col-md-6 col-sm-12">
+                  <div class="mx-3 my-2">
+                    <input type="text" class="form-control shadow-none p-2" placeholder="Email">
+                  </div>
+                  
+                </div>
+                <div class="col-md-6 col-sm-12">
+                  <div class="mx-3 my-2">
+                    <input type="number" class="form-control shadow-none p-2" placeholder="Phone Number">
+                  </div>
+                </div>
+                
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="mx-3 my-2">
+                    <input type="text" class="form-control shadow-none p-2" placeholder="Address">
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="mx-3 my-2">
+                    <input type="text" class="form-control shadow-none p-2" placeholder="Subject">
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="mx-3 my-2">
+                    <textarea class="form-control shadow-none p-2" placeholder="Type Your Message Here"  cols="30" rows="10"></textarea>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class=" my-2 col-md-12 justify-content-start">
+                  <input type="submit" class="btn cbtn px-5 py-2" style="color: black; background-color: #fff;"  value="Submit">
+                </div>
+              </div>
+            </form>
           </div>
         </div>
       </div>
@@ -243,8 +305,14 @@ export default {
   justify-content: center;
   flex-direction: column;
 }
+.cbtn{
+  &:hover{
+    background-color: rgb(232, 229, 229) !important;
+  }
+}
 .ccc{
-  height: 50vh;
+  height: auto;
+  padding: 100px;
   width: 100%;
   background-color: rgb(235,133,16);
 }

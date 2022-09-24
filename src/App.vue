@@ -15,8 +15,6 @@ export default {
 }
 </script>
 
-<style lang="scss">
-  *{
-    position: relative;
-  }
+<style lang="scss" scoped>
+  
 </style>
