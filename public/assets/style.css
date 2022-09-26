@@ -1,5 +1,6 @@
 .active{
     color: rgb(235,133,16) !important;
+    background: none !important;
 }
 
 h1, h2, h3, h4, h5, h6, p, i, b, span {
