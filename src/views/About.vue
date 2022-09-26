@@ -61,10 +61,12 @@ export default {
 // }
 .over{
   width: 100%;
-  background: ;
+  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../assets/images/7.jpg);
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
   height: 40vh;
+  display: flex;
+  align-items: center;
 }
 </style>
