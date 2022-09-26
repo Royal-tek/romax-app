@@ -45,23 +45,38 @@
 
                 <div class="my-5">
                     <h3 style="font-weight: bold;">Property Details</h3>
-                    <div class="bing my-3" style="font-weight: bold;">
-                        <div>
-                            <h5>Property type</h5>
-                            <p>Terraced Duplex</p>
+                    <div class="row my-3" style="font-weight: bold;">
+                        <div class="col-lg-3 col-md-6 my-2">
+                            <div>
+                                <h5>Property type</h5>
+                                <p>Terraced Duplex</p>
+                            </div>
                         </div>
-                        <div>
+
+                        <div class="col-lg-3 col-md-6 my-2">
+                            <div>
                             <h5>Bedrooms</h5>
                             <p>3</p>
                         </div>
-                        <div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 my-2">
+                            <div>
                             <h5>Bathrooms</h5>
                             <p>3.5</p>
                         </div>
-                        <div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 my-2">
+                            <div>
                             <h5>Car Parking</h5>
                             <p>1</p>
                         </div>
+                        </div>
+                        
+                        
+                        
+                        
                     </div>
                 </div>
             </div>
@@ -69,13 +84,13 @@
             
                 <div class="row my-3">
                     <div class="col-lg-6 mesh ">
-                        <div class="p-5">
+                        <div class="p-5 my-3">
                             <p><i class="fa fa-bath"></i></p>
                             <p>All bathrooms are equipped with state of the art fixtures with the master bathroom particularly fitted with Jacuzzi.​</p>
                         </div>
                     </div>
                     <div class="col-lg-6 mesh">
-                        <div class="p-5">
+                        <div class="p-5 my-3">
                             <p><i class="fa fa-radio"></i></p>
                             <p>The kitchen boasts of well fitted cabinets with extractor hood over the cooker place, Split unit A/C, Gas stove, Oven and Microwave.​</p>
                         </div>
@@ -84,13 +99,13 @@
                 </div>
                 <div class="row my-3">
                     <div class="col-lg-6 mesh ">
-                        <div class="p-5">
+                        <div class="p-5 my-3">
                             <p><i class="fa fa-camera"></i></p>
                             <p>All homes come fully equipped with CCTV, Speakers and Video Door Phone for effective survelliance and monitoring.​</p>
                         </div>
                     </div>
                     <div class="col-lg-6 mesh">
-                        <div class="p-5">
+                        <div class="p-5 my-3">
                             <p><i class="fa fa-tree"></i></p>
                             <p>Proximity to existing recreational services. Such as Lekki Conservation Centre and Shoprite mall.​</p>
                         </div>
