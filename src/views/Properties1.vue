@@ -105,8 +105,11 @@ export default {
 <style lang="scss" scoped>
     .prop{
         padding: 15px;
-        background-color: none;
-        border: 1px solid black;
+        background-color: #fff;
+        box-shadow: -1px 10px 29px -11px rgba(0,0,0,0.75);
+        -webkit-box-shadow: -1px 10px 29px -11px rgba(0,0,0,0.75);
+        -moz-box-shadow: -1px 10px 29px -11px rgba(0,0,0,0.75);
+        // border: 1px solid black;
     }
     .desc{
         display: flex;
