@@ -27,10 +27,11 @@
   
     </div>
     <div class="over my-5 py-5">
-    <div class="container">
-      <h3 class="text-center text-capitalize text-white" style="font-weight: bold;">Build your dream home</h3>
-      <h1 class="text-center text-capitalize text-white" style="font-weight: bold;">visit our projects today</h1>
-    </div>
+    <!-- <div class="container"> -->
+      <h3 class="text-center text-capitalize text-white my-3" style="font-weight: bold;">Build your dream home</h3>
+      <h1 class="text-center text-capitalize text-white my-3" style="font-weight: bold;">visit our projects today</h1>
+      <a href="/contact" class="btn c-btn my-3 text-white px-5 py-3 " style="font-weight: bold;">Contact Us</a>
+    <!-- </div> -->
   </div>
 
   </div>
@@ -66,7 +67,12 @@ export default {
   background-attachment: fixed;
   background-size: cover;
   height: 40vh;
+  justify-content: center;
+  flex-direction: column;
   display: flex;
   align-items: center;
+}
+.c-btn{
+  background-color: rgb(235,133,16);
 }
 </style>
