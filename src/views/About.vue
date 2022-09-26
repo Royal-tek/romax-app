@@ -66,7 +66,7 @@ export default {
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
-  height: 40vh;
+  height: 50vh;
   justify-content: center;
   flex-direction: column;
   display: flex;
