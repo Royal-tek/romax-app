@@ -132,7 +132,7 @@ export default {
     }
     .prop-detail{
         background-color: rgb(235, 133, 16) !important;
-        border-radius: 20px;
+        // border-radius: 20px;
         text-align: center;
     }
 </style>
