@@ -102,10 +102,10 @@
 
     </section>
 
-    <section id="contact">
+    <section id="contact" class="mb-0 pb-0">
       <div class="container-fluid ccc">
         <div class="row" style="height:100%">
-          <div class="col-md-4 col-sm-12 text-center discuss text-white">
+          <div class="col-md-6 col-sm-12 text-center discuss text-white">
             <h1 class="my-3 text-capitalize" style="font-weight: bold; font-size: 50px;">Lets discuss our projects</h1>
             <h5 class="my-3" style="font-weight: bold;">Fill out the form, or call us to Schedule an Inspection.</h5>
             <h5 class="my-3" style="font-weight: bold;">Project Locations : </h5>
@@ -116,17 +116,17 @@
             <h5 class="my-3" style="font-weight: bold;">07000076629 </h5>
 
           </div>
-          <div class="col-md-8 col-sm-12 text-center form">
+          <div class="col-md-6 col-sm-12 text-center form">
             <form class="form">
               <div class="row">
                 <div class="col-md-6 col-sm-12">
-                  <div class="mx-3 my-2">
+                  <div class="form-group mx-3 my-2">
                     <input type="text" class="form-control shadow-none p-2" placeholder="FirstName">
                   </div>
                   
                 </div>
                 <div class="col-md-6 col-sm-12">
-                  <div class="mx-3 my-2">
+                  <div class="form-group mx-3 my-2">
                     <input type="text" class="form-control shadow-none p-2" placeholder="LasttName">
                   </div>
                 </div>
@@ -135,13 +135,13 @@
 
               <div class="row">
                 <div class="col-md-6 col-sm-12">
-                  <div class="mx-3 my-2">
+                  <div class="form-group mx-3 my-2">
                     <input type="text" class="form-control shadow-none p-2" placeholder="Email">
                   </div>
                   
                 </div>
                 <div class="col-md-6 col-sm-12">
-                  <div class="mx-3 my-2">
+                  <div class="form-group mx-3 my-2">
                     <input type="number" class="form-control shadow-none p-2" placeholder="Phone Number">
                   </div>
                 </div>
@@ -149,21 +149,21 @@
               </div>
               <div class="row">
                 <div class="col-md-12">
-                  <div class="mx-3 my-2">
+                  <div class="form-group mx-3 my-2">
                     <input type="text" class="form-control shadow-none p-2" placeholder="Address">
                   </div>
                 </div>
               </div>
               <div class="row">
                 <div class="col-md-12">
-                  <div class="mx-3 my-2">
+                  <div class="form-group mx-3 my-2">
                     <input type="text" class="form-control shadow-none p-2" placeholder="Subject">
                   </div>
                 </div>
               </div>
               <div class="row">
                 <div class="col-md-12">
-                  <div class="mx-3 my-2">
+                  <div class="form-group mx-3 my-2">
                     <textarea class="form-control shadow-none p-2" placeholder="Type Your Message Here"  cols="30" rows="10"></textarea>
                   </div>
                 </div>

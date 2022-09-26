@@ -1,6 +1,7 @@
 <template>
     <div class="footer">
-        <p class="text-center text-capitalize">&copy; Romax properties limited. All rights reserved</p>
+        <p class="text-center text-dark text-capitalize py-2" style="font-weight: bold;">&copy; Romax properties limited. All rights reserved</p>
+        <!-- <i class="fa fa-user"></i> -->
     </div>
 </template>
 
